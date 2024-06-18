@@ -1,0 +1,47 @@
+header {
+  background: #007bff; /* blue header background */
+  color: white;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.branding h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffd700; /* lighter yellow on hover */
+}

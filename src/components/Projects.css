@@ -1,0 +1,44 @@
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  background: linear-gradient(to right, #2C3E50, #4CA1AF); /* Background gradient */
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow to the content box */
+  max-width: 800px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  line-height: 1.5;
+}
+
+.project-card a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.project-card a:hover {
+  color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    padding: 10px;
+  }
+}

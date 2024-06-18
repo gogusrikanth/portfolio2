@@ -1,0 +1,56 @@
+.home-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  background: linear-gradient(to right, #141E30, #243B55); /* Background gradient */
+}
+
+.intro-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow to the content box */
+  max-width: 800px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.intro-text h2 {
+  margin-bottom: 10px;
+}
+
+.about {
+  max-width: 800px;
+  width: 100%;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+}
+
+.about p {
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .intro-card {
+    padding: 10px;
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+}
