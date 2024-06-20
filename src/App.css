@@ -2,13 +2,17 @@ body {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
   margin: 0;
-  padding: 0;
-  background: linear-gradient(to right, #141414, #282828); /* gradient background */
+  padding: 0; /* gradient background */
+  background: linear-gradient(
+    to right,
+    #3a7bd5,
+    #3a6073
+  );
   color: white; /* white font color */
 }
 
 header {
-  background: #007BFF; /* blue header background */
+  background: #007bff; /* blue header background */
   color: white;
   border-bottom: 1px solid #ddd;
   padding: 10px 0;
@@ -66,7 +70,7 @@ main {
 }
 
 footer {
-  background: #007BFF; /* blue footer background */
+  background: #007bff; /* blue footer background */
   color: white;
   text-align: center;
   padding: 10px 0;

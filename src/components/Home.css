@@ -1,13 +1,3 @@
-.home-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 40px 20px;
-  min-height: 100vh; /* Ensure it covers the full viewport height */
-  background: linear-gradient(to right, #141E30, #243B55); /* Background gradient */
-}
 
 .intro-card {
   background: rgba(255, 255, 255, 0.1);

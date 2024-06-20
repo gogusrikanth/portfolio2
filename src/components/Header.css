@@ -1,47 +1,52 @@
-header {
-  background: #007bff; /* blue header background */
-  color: white;
-  border-bottom: 1px solid #ddd;
-  padding: 10px 0;
-  position: sticky;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-}
-
-.container {
+/* src/components/Header.css */
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 20px;
+  padding: 10px 20px;
+  background-color: #343a40;
 }
 
-.branding h1 {
+.header-logo h1 {
   margin: 0;
-  font-size: 1.5em;
+  color: white;
 }
 
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.header-nav {
   display: flex;
   align-items: center;
 }
 
-nav ul li {
-  margin: 0 10px;
-}
-
-nav ul li a {
+.header-nav a {
   color: white;
   text-decoration: none;
-  font-size: 1em;
-  transition: color 0.3s;
+  margin: 0 10px;
+  transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
-  color: #ffd700; /* lighter yellow on hover */
+.header-nav a:hover {
+  color: #007bff;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.8); /* Ensure the links are white */
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #007bff !important; /* Change to a visible color on hover */
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .header-nav {
+    display: none;
+  }
 }

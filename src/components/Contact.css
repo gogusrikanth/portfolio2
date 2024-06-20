@@ -1,18 +1,4 @@
-.contact-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 40px 20px;
-  
-  max-width: 100vh; /* Ensure it covers the full viewport height */
-  background: linear-gradient(
-    to right,
-    #283048,
-    #859398
-  ); /* Background gradient */
-}
+
 
 .contact-form {
   background: rgba(255, 255, 255, 0.1);

@@ -1,18 +1,4 @@
-.resume-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 40px 20px;
-  /* Ensure it covers the full viewport height */
-  min-width: 100vh;
-  background: linear-gradient(
-    to right,
-    #0f2027,
-    #2c5364
-  ); /* Background gradient */
-}
+
 
 .download-resume {
   background: rgba(255, 255, 255, 0.1);
