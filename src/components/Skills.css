@@ -1,0 +1,25 @@
+.skill-card {
+  background-color: #323f4b;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.skill-image {
+  width: 40%;
+  margin-bottom: 5px;
+}
+
+.skill-name {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+}
+
+.certification-link {
+  color: #cced00;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+}

@@ -5,7 +5,7 @@ import Home from './components/Home'
 import Projects from './components/Projects'
 import Resume from './components/Resume'
 import Contact from './components/Contact'
-import Certifications from './components/Certifications'
+import Skills from './components/Skills'
 import './App.css'
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/certifications" element={<Certifications />} />
+            <Route path="/Skills" element={<Skills />} />
           </Routes>
         </main>
       </div>
