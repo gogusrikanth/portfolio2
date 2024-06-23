@@ -11,22 +11,25 @@ const Projects = () => {
             <div className="col-12 text-center mb-5">
               <h1 className="about-heading">Projects I have done</h1>
             </div>
-            <div className="col-12 col-md-6 mb-4">
+             <div className="col-12 col-md-6 mb-4">
               <div className="shadow projects-card mb-3">
                 <img
-                  src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-1-img.png"
+                  src="/trends.png"
                   className="portfolio-image img-fluid"
-                  alt="Project 1"
+                  alt="Project 2"
                 />
                 <div className="p-3">
-                  <p className="project-title">Web design</p>
-                  <h1 className="project-heading">Royal Grand Hotel</h1>
+                  <p className="project-title">Web App</p>
+                  <h1 className="project-heading">Jobby</h1>
                   <p className="project-description">
-                    Royal Grand Hotel is a Simple Static Website. We can use
-                    this layout for building other websites...
+                    The Jobby App is a comprehensive job search application
+                    built with React, offering users a seamless and intuitive
+                    platform to find and apply for jobs. This project
+                    demonstrates my proficiency in front-end development, state
+                    management, API integration, and responsive design.
                   </p>
-                  <a className="project-link" href="google.com">
-                    Read More{' '}
+                  <a className="project-link" href="nxtjobs.ccbp.tech">
+                    Visit{' '}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -47,19 +50,94 @@ const Projects = () => {
             <div className="col-12 col-md-6 mb-4">
               <div className="shadow projects-card mb-3">
                 <img
-                  src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-2-img.png"
+                  src="/jobby.png"
                   className="portfolio-image img-fluid"
                   alt="Project 2"
                 />
                 <div className="p-3">
-                  <p className="project-title">Web design</p>
-                  <h1 className="project-heading">Happy Meals</h1>
+                  <p className="project-title">Web App</p>
+                  <h1 className="project-heading">Jobby</h1>
                   <p className="project-description">
-                    Happy Meals is the best-in-class food ordering page today.
-                    With interactive UI/UX and simple call to actions.
+                    The Jobby App is a comprehensive job search application
+                    built with React, offering users a seamless and intuitive
+                    platform to find and apply for jobs. This project
+                    demonstrates my proficiency in front-end development, state
+                    management, API integration, and responsive design.
                   </p>
-                  <a className="project-link" href="google.com">
-                    Read More{' '}
+                  <a className="project-link" href="nxtjobs.ccbp.tech">
+                    Visit{' '}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 mb-4">
+              <div className="shadow projects-card mb-3">
+                <img
+                  src="/nxtwatch.png"
+                  className="portfolio-image img-fluid"
+                  alt="Project 3"
+                />
+                <div className="p-3">
+                  <p className="project-title">Web App</p>
+                  <h1 className="project-heading">Nxtwatch</h1>
+                  <p className="project-description">
+                    Developed a comprehensive video streaming web application
+                    with dynamic routing and seamless user authentication. The
+                    app is initialized in a light theme and includes routes for
+                    login, home, trending, gaming, video details, and saved
+                    videos.
+                  </p>
+                  <a className="project-link" href="nxtclips.ccbp.tech">
+                    Visit{' '}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 mb-4">
+              <div className="shadow projects-card mb-3">
+                <img
+                  src="/ai.png"
+                  className="portfolio-image img-fluid"
+                  alt="Project 4"
+                />
+                <div className="p-3">
+                  <p className="project-title">Web App</p>
+                  <h1 className="project-heading">MiniGPT</h1>
+                  <p className="project-description">
+                    Developed an advanced chatbot leveraging generative AI
+                    capabilities to provide responses in both text and voice
+                    formats. This chatbot mimics functionalities similar to
+                    ChatGPT and integrates various technologies to enhance user
+                    interaction.
+                  </p>
+                  <a className="project-link" href="minigpt.ccbp.tech">
+                    Visit{' '}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
