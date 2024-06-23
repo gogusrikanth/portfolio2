@@ -10,13 +10,13 @@ const Footer = () => {
             <div className="col-12 col-md-3 mb-3">
               <div className="d-flex flex-row">
                 <img
-                  src="/assets/images/profile.jpg"
+                  src="/image.jpg"
                   className="footer-image mr-3"
                   alt="Profile"
                 />
                 <div>
                   <h1 className="footer-heading">Srikanth</h1>
-                  <p className="footer-description">Frontend Developer</p>
+                  <p className="footer-description">Student</p>
                 </div>
               </div>
             </div>

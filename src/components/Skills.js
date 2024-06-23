@@ -20,7 +20,7 @@ const Skills = () => {
               <h1 className="skill-name">HTML</h1>
               <a
                 className="certification-link"
-                href="google.com"
+                href="https://certificates.ccbp.in/academy/static-website?id=USDDCDTJMG"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -38,7 +38,7 @@ const Skills = () => {
               <h1 className="skill-name">CSS</h1>
               <a
                 className="certification-link"
-                href="google.com"
+                href="https://certificates.ccbp.in/academy/responsive-web-design-using-flexbox?id=HIQYPIKKWT"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -56,7 +56,7 @@ const Skills = () => {
               <h1 className="skill-name">Bootstrap</h1>
               <a
                 className="certification-link"
-                href="google.com"
+                href="https://certificates.ccbp.in/academy/build-your-own-responsive-website?id=KMTKPAPVCS"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -74,7 +74,7 @@ const Skills = () => {
               <h1 className="skill-name">JavaScript</h1>
               <a
                 className="certification-link"
-                href="google.com"
+                href="https://certificates.ccbp.in/academy/dynamic-web-application?id=GLXNGOHASK"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -87,12 +87,12 @@ const Skills = () => {
               <img
                 src="/python.jpg"
                 className="skill-image img-fluid"
-                alt="HTML"
+                alt="Python"
               />
               <h1 className="skill-name">Python</h1>
               <a
                 className="certification-link"
-                href="google.com"
+                href="https://certificates.ccbp.in/academy/programming-foundations-with-python?id=ZECPVJFMQP"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -105,12 +105,12 @@ const Skills = () => {
               <img
                 src="/db.jpg"
                 className="skill-image img-fluid"
-                alt="HTML"
+                alt="Database"
               />
               <h1 className="skill-name">Database</h1>
               <a
                 className="certification-link"
-                href="google.com"
+                href="https://certificates.ccbp.in/academy/introduction-to-databases?id=VSMIMHVNAY"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -123,12 +123,12 @@ const Skills = () => {
               <img
                 src="/react.jpg"
                 className="skill-image img-fluid"
-                alt="HTML"
+                alt="React"
               />
               <h1 className="skill-name">React</h1>
               <a
                 className="certification-link"
-                href="google.com"
+                href="https://certificates.ccbp.in/academy/react-js?id=IXSONHWDJO"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -141,12 +141,12 @@ const Skills = () => {
               <img
                 src="node.jpg"
                 className="skill-image img-fluid"
-                alt="HTML"
+                alt="Node"
               />
               <h1 className="skill-name">Node</h1>
               <a
                 className="certification-link"
-                href="google.com"
+                href="https://certificates.ccbp.in/academy/node-js?id=NNBMXXDLWO"
                 target="_blank"
                 rel="noopener noreferrer"
               >
