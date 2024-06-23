@@ -1,0 +1,36 @@
+.footer-container {
+  background-color: #0d2436;
+  background-size: cover;
+  padding-top: 10px;
+}
+
+.footer-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+}
+
+.footer-heading {
+  color: #cced00;
+  font-size: 26px;
+  font-family: 'Lobster', cursive;
+}
+
+.footer-description {
+  color: #5a7184;
+  font-size: 20px;
+}
+
+.footer-icon {
+  color: #5a7184;
+  font-size: 18px;
+}
+
+.copy-right-container {
+  background-color: #001c32;
+  padding: 10px;
+}
+
+.copy-right-description {
+  color: #9aa5b1;
+}

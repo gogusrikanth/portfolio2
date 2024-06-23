@@ -8,8 +8,8 @@ const Header = () => {
   return (
     <header className="navbar navbar-expand-lg">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">
-          GOGU SRIKANTH
+        <Link className="logo" to="/">
+          S.
         </Link>
         <button
           className="navbar-toggler"
@@ -52,7 +52,7 @@ const Header = () => {
             <li className="nav-item">
               <a
                 className="nav-link"
-                href="https://twitter.com/yourprofile"
+                href="https://x.com/srikanth_gogu?t=3OTUQRbwFugy2Ksc4ERpNQ&s=08"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -62,7 +62,7 @@ const Header = () => {
             <li className="nav-item">
               <a
                 className="nav-link"
-                href="https://linkedin.com/in/yourprofile"
+                href="https://linkedin.com/in/gogusrikanth"
                 target="_blank"
                 rel="noopener noreferrer"
               >

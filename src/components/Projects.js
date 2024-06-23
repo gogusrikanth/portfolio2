@@ -9,7 +9,6 @@ const Projects = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 text-center mb-5">
-              <p className="about-title">Portfolio</p>
               <h1 className="about-heading">Projects I have done</h1>
             </div>
             <div className="col-12 col-md-6 mb-4">

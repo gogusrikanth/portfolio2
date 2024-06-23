@@ -1,4 +1,15 @@
 /* src/components/Header.css */
+.logo {
+  font-family: roboto;
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #4b6cc1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -25,7 +36,7 @@
 }
 
 .header-nav a:hover {
-  color: #007bff;
+  color: black;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -34,7 +45,7 @@
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-  color: #007bff !important; /* Change to a visible color on hover */
+  color: black !important; /* Change to a visible color on hover */
 }
 
 .navbar-toggler {

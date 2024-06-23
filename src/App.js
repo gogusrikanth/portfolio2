@@ -6,6 +6,7 @@ import Projects from './components/Projects'
 import Resume from './components/Resume'
 import Contact from './components/Contact'
 import Skills from './components/Skills'
+import Footer from './components/Footer'
 import './App.css'
 
 function App() {
@@ -20,8 +21,10 @@ function App() {
             <Route path="/resume" element={<Resume />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/Skills" element={<Skills />} />
+            
           </Routes>
         </main>
+        <Footer />
       </div>
     </Router>
   )

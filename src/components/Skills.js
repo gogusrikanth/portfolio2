@@ -82,6 +82,78 @@ const Skills = () => {
               </a>
             </div>
           </div>
+          <div className="col-6 col-md-3 mb-4">
+            <div className="shadow skill-card text-center pt-3 pb-3 mb-3">
+              <img
+                src="/python.jpg"
+                className="skill-image img-fluid"
+                alt="HTML"
+              />
+              <h1 className="skill-name">Python</h1>
+              <a
+                className="certification-link"
+                href="google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Certification
+              </a>
+            </div>
+          </div>
+          <div className="col-6 col-md-3 mb-4">
+            <div className="shadow skill-card text-center pt-3 pb-3 mb-3">
+              <img
+                src="/db.jpg"
+                className="skill-image img-fluid"
+                alt="HTML"
+              />
+              <h1 className="skill-name">Database</h1>
+              <a
+                className="certification-link"
+                href="google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Certification
+              </a>
+            </div>
+          </div>
+          <div className="col-6 col-md-3 mb-4">
+            <div className="shadow skill-card text-center pt-3 pb-3 mb-3">
+              <img
+                src="/react.jpg"
+                className="skill-image img-fluid"
+                alt="HTML"
+              />
+              <h1 className="skill-name">React</h1>
+              <a
+                className="certification-link"
+                href="google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Certification
+              </a>
+            </div>
+          </div>
+          <div className="col-6 col-md-3 mb-4">
+            <div className="shadow skill-card text-center pt-3 pb-3 mb-3">
+              <img
+                src="node.jpg"
+                className="skill-image img-fluid"
+                alt="HTML"
+              />
+              <h1 className="skill-name">Node</h1>
+              <a
+                className="certification-link"
+                href="google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Certification
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
