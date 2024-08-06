@@ -2,8 +2,12 @@
   background-color: #323f4b;
   border-radius: 8px;
   width: 100%;
+  overflow: hidden;
+  transition: transform 0.3s ease;
 }
-
+.skill-card:hover {
+  transform: translateY(-10px);
+}
 .skill-image {
   width: 40%;
   margin-bottom: 5px;
